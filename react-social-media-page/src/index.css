@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #9fa1d6;
 }
 
 code {
@@ -25,8 +26,8 @@ ul {
 }
 
 button {
-  padding: 2rem;
-  width: 10rem;
+  padding: 1rem;
+  width: 7rem;
   margin: .25rem;
   border-radius: .25rem;
   border: transparent;

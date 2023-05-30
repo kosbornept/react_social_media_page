@@ -27,3 +27,30 @@
 .userButtonsBox {
   display: flex;
 }
+
+@media only screen and (max-width: 1024px) {
+  .contentBox {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contentBox {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 618px) {
+  .contentBox {
+    padding: 0 .5em;
+    grid-column-gap: 0;
+  }
+
+  .usersBox {
+    width: 90%; 
+    padding: .1em;
+    font-size: .5em;
+  }
+}
