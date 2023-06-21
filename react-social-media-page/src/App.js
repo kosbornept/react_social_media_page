@@ -17,6 +17,9 @@ function App() {
 
   return (
     <div>
+      <h1 style={{
+        textAlign: 'center'
+      }}>React App to show example API calls to comments, friends and posts.</h1>
       <div className='userButtonsBox'>
         <ul>
           <li>

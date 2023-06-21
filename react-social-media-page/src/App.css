@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  outline: solid .25em white;
+}
+
+button:focus {
+  background-color: rgb(88, 12, 165);
+}
+
 .contentTitle {
   text-align: center;
   width: 100%;
