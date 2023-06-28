@@ -22,17 +22,17 @@ function App() {
       }}>React App to show example API calls to comments, friends and posts.</h1>
       <div className='userButtonsBox'>
         <ul>
-          <li>
+          <li key="posts">
             <button onClick={() => setContentType('posts')}>
               Posts
             </button>
           </li>
-          <li>
+          <li key="comments">
             <button onClick={() => setContentType('comments')}>
               Comments
             </button>
           </li>
-          <li>
+          <li key="friends">
             <button onClick={() => setContentType('users')}>
               Friends
             </button>
